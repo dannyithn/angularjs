@@ -1,0 +1,38 @@
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    .nav-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        a {
+            text-decoration: none;
+            color: #000;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .btn {
+        background:blue;
+        color: #fff;
+        border: 1px solid transparent;
+        padding: 12px 24px;
+        cursor: pointer;
+        transition: all 0.5s;
+        border-radius: 8px;
+        text-decoration: none;
+
+        &:hover {
+            background: blue;
+            color: #000;
+            border: 1px solid blue;
+        }
+    }
+}
